@@ -1,0 +1,13 @@
+---
+---
+/*
+ * assets/main.scss
+ * the dashed lines above are required
+ */
+
+$background-color: #fefefa; 
+$text-color: #313639;
+$grey-color-light: #a5bfd0;
+$grey-color-dark: #293752; 
+
+@import "{{ site.theme }}";

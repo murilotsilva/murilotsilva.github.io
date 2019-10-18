@@ -18,21 +18,52 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+author: "Murilo Teixeira Silva"
+title: "Murilo T. Silva, M.Eng"
+tagline: "Radar and Remote Sensing Group | Memorial University of Newfoundland"
+email: murilots@mun.ca
+affiliation: "Radar and Remote Sensing Group 
+
+Department of Electrical and Computer Engineering
+
+Faculty of Engineering and Applied Science
+
+Memorial University of Newfoundland
+
+St. John's, NL, Canada"
+
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://murilotsilva.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: murilotsilva
+linkedin_username: murilots
+github_username:  murilotsilva
+# scholar_userid: 1rOPNYEAAAAJ
+header_pages:
+  - about.markdown
+  - publications.md
 
 # Build settings
 theme: minima
+github: [metadata]
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  
+# Github configuration
+lsi: false
+safe: true
+source: ""
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
