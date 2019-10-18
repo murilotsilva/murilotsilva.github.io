@@ -6,7 +6,7 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-3">
         <ul class="contact-list">
           <li class="p-name">
 <!----            {%- if site.author -%}
@@ -14,7 +14,7 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%} ---->
-	        <li>{{ site.affiliation | escape }}</li>
+	        <p>{{ site.affiliation | newline_to_br }}</p>
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -26,8 +26,9 @@
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col footer-col-1" align="middle">
+        <!-- <p>{{- site.description | escape -}}</p><br /> -->
+        <a href="http://www.mun.ca"><img src="/figs/MUN_Logo_bw.png" align="middle" width="50%"></a>
       </div>
     </div>
 
