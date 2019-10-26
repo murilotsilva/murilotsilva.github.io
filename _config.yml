@@ -42,6 +42,7 @@ facebook_username: murilotxs90
 header_pages:
   - about.markdown
   - publications.md
+  - blog.html
 
 # Build settings
 theme: minima
