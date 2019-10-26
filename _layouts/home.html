@@ -3,16 +3,16 @@ layout: default
 ---
 
 <div class="home">
-<!----  {%- if page.title -%}
+<!--  {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} ---->
+  {%- endif -%} -->
 
   {{ content }}
 
-<!---  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+ {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:3-%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -27,13 +27,15 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
+    {%- if site.post.size > 3 -%}
+    <a href="blog/index.html">See more posts</a>
+    {%- endif -%}
+    
     <p class="feed-subscribe">
       <a href="{{ 'feed.xml' | relative_url }}">
         <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
       </a>
     </p>
   {%- endif -%}
---->
 
 </div>
