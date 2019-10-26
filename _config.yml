@@ -34,6 +34,7 @@ affiliation: |
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://murilotsilva.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+show_excerpts: true
 twitter_username: murilotsilva
 linkedin_username: murilots
 github_username:  murilotsilva
