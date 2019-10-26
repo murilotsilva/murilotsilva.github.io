@@ -3,8 +3,7 @@ Journal Papers
 
 Silva, M. T., Gill, E. W., & Huang, W. (2019). Electromagnetic
 Scattering in Curvilinear Coordinates Using the Generalized Functions
-Method. *Radio Science*.  
-Accepted for publication
+Method. *Radio Science*, (Accepted for publication).
 
 Silva, M. T., Shahidi, R., Gill, E. W., & Huang, W. (2019). Nonlinear
 Extraction of Directional Ocean Wave Spectrum From Synthetic Bistatic
