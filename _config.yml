@@ -19,7 +19,6 @@ header_pages:
 - blog/index.html
 theme: minima
 github:
-- 'repository: murilotsilva/murilotsilva.github.io'
 - metadata
 plugins:
 - jekyll-feed
