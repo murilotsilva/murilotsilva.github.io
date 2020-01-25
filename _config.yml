@@ -7,6 +7,7 @@ affiliation: "Radar and Remote Sensing Group\nDepartment of Electrical and Compu
   Engineering\nFaculty of Engineering and Applied Science\nMemorial University of
   Newfoundland   \nSt. John's, NL, Canada\n"
 baseurl: ''
+repository: murilotsilva/murilotsilva.github.io
 url: http://murilotsilva.github.io
 show_excerpts: true
 twitter_username: murilotsilva
