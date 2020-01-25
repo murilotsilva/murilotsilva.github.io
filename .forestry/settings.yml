@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: "."
-  label: Documents
+  path: _config.yml
+  label: Config
 - type: jekyll-pages
   label: Pages
   create: all
