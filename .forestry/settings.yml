@@ -11,7 +11,7 @@ sections:
   label: Posts
   create: all
 - type: document
-  path: "./_config.yml"
+  path: _config.yml
   label: Config
 upload_dir: uploads
 public_path: "/uploads"
