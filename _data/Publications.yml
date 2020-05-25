@@ -1,0 +1,473 @@
+# Publications.yml - Converted from Publications.bib using bib2yml.py
+- id: Silva2019c
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "28th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2019)"
+  title: "First-order high-frequency scattering for ocean surfaces with large roughness scales"
+  year: "2019"
+  address: "St. John's, Newfoundland and Labrador, Canada"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  day: "19"
+  groups: "Conferences without proceedings"
+- id: Silva2016
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+    - names: Frederico Medeiros Vasconcelos
+      surnames: de Albuquerque
+  journal: "TEMA (São Carlos)"
+  title: "Feature extraction of structures in sea water using self-organizing maps and electromagnetic waves"
+  year: "2016"
+  issn: "2179-8451"
+  month: "January"
+  number: "3"
+  pages: "261–274"
+  volume: "16"
+  abstract: "The use of Self-Organizing Map (SOM) algorithm for feature extraction and dimensionality reduction applied to underwater object detection with Low Frequency Electromagnetic Waves is presented. Computer simulation is used to generate a direct model for the study region, and a Self Organizing Map Algorithm is used to fit the data and return a similar model, with smaller dimensionality and same characteristics. Results show that virtual sensors are created by the SOM algorithm with consistent predictions, filling the resolution gap of the input data. These results are useful for fastening decision making algorithms by reducing the number of inputs to a group of significant data."
+  doi: "10.5540/tema.2015.016.03.0261"
+  fjournal: "Trends in Applied and Computational Mathematics"
+  groups: "Journals"
+  keywords: "electromagnetic imaging,self-organizing maps,unsupervised neural networks"
+  publisher: "SciELO Brasil"
+  url: "http://tema.sbmac.org.br/tema/article/view/836"
+- id: Silva2011a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "VI Congresso Norte e Nordeste de Pesquisa e Inovação, 2011"
+  title: "Comparação de malhas automáticas para o método dos elementos finitos aplicados à simulação matemática da equação de Poisson"
+  year: "2011"
+  address: "Natal"
+  month: "December"
+  organization: "IFRN"
+  pages: "205–214"
+  annote: "in Portuguese"
+  groups: "Conferences with proceedings"
+  url: "http://portal.ifrn.edu.br/pesquisa/editora/livros-para-download/vi-connepi-engenharia-iv"
+- id: Silva2017
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eduardo Telmo Fonseca
+      surnames: Santos
+    - names: Lurimar Smera
+      surnames: Batista
+    - names: José Mário
+      surnames: Araújo
+    - names: Lurimar Smera
+      surnames: Batista
+  journal: "WSEAS Transactions on Systems"
+  title: "Alternative analytical solution for position and orientation in electromagnetic motion tracking systems"
+  year: "2017"
+  issn: "2224-2678"
+  month: "August"
+  pages: "225–233"
+  volume: "16"
+  abstract: "An alternative analytical solution to six degrees-of-freedom position and attitude estimation problem is proposed. The proposed method relies on the use of Singular Value Decomposition to the transformation matrix between the currents in the transmitter and in the receiver. The proposed method is validated using synthetic data, in which a random motion is applied to the transmitter within an environment with different levels of noise. Once the efficacy of the method is confirmed, the proposed algorithm is benchmarked against a well established closed-form solution. The presented method was able to accurately obtain the position and orientation, with performance comparable to the benchmark."
+  file: ":home/murilo/Documents/Mendeley Desktop/Silva et al/2017/Silva et al._2017_Alternative analytical solution for position and orientation in electromagnetic motion tracking systems.pdf:pdf"
+  fjournal: "WSEAS Transactions on Systems"
+  groups: "Journals"
+  publisher: "World Scientific and Engineering Academy and Society - WSEAS"
+  url: "http://www.wseas.org/multimedia/journals/systems/2017/a505802-879.php"
+- id: Silva2017c
+- entrytype: phdthesis
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+  school: "Memorial University of Newfoundland"
+  title: "A nonlinear approach to ocean wave spectrum extraction from bistatic HF-radar data"
+  year: "2017"
+  type: "M.Eng. Thesis"
+  abstract: "In this thesis, a new approach to the extraction of the directional ocean wave spectrum from bistatic high frequency (HF) radar data is proposed. The proposed method relies on the simplification of the second-order bistatic radar cross-section, analogous to the one presented by Shahidi and Gill [1] for the monostatic case, to facilitate the use of nonlinear optimization methods, such as regularized nonlinear least-squares. Initially, the historic development of the techniques related to the extraction of the ocean wave spectrum from HF radar data is provided in order to contextualize the work of this thesis. Then, an overview of the theory related to ocean waves and the bistatic radar cross-section is shown. Later, the nonlinear optimization method used in this thesis, Tikhonov regularization in Hilbert spaces, is explained, as well as the theoretical background necessary to understand the method. Once the theory is laid out, the simplification of the second-order bistatic HF radar cross section is presented. The simplification consists of a change of variables that allow the use of the “sifting” property of the Dirac delta function. This reduces the dependence of the second-order bistatic cross-section to a single variable. After the simplification process is shown, the methodology for extracting the directional ocean wave spectrum from bistatic HF radar data is discussed. As a proof-of-concept, the method is initially applied to the second-order bistatic cross section, without the presence of noise. The method successfully extracted the directional ocean wave spectrum without assuming any function model for the nondirectional ocean wave spectrum, and assuming a cosine-power model for the directional spreading function. Next, the first-order bistatic HF radar cross section is added to the second-order cross section, and the proposed method is applied, still without noise present. The proposed method was also able to extract the directional ocean wave spectrum and very low error is added by the inclusion of the first-order cross section. Finally, different levels of noise are added to the cross section including the first and second- orders, and the presented method is applied for the extraction. Again, the method yields good results, with acceptable levels of error for the different noise levels. This new approach to the extraction of the directional ocean wave spectrum from bistatic HF radar data presents, to the author's knowledge, the first nonlinear extraction method for bistatic HF radar data. Further developments of the technique, such as the use of different nonlinear extraction methods, or a general directional spreading function, are suggested."
+  groups: "Theses"
+  url: "https://research.library.mun.ca/12819/"
+- id: Silva2019
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Reza
+      surnames: Shahidi
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  journal: "IEEE J. Ocean. Eng."
+  title: "Nonlinear extraction of directional ocean wave spectrum from synthetic bistatic high-frequency surface wave radar data"
+  year: "2019"
+  issn: "0364-9059"
+  month: "May"
+  pages: "1–18"
+  doi: "10.1109/JOE.2019.2909961"
+  fjournal: "IEEE Journal of Oceanic Engineering"
+  groups: "Journals"
+  url: "https://ieeexplore.ieee.org/document/8716506/"
+- id: Silva2016a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Reza
+      surnames: Shahidi
+  booktitle: "25th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2016)"
+  title: "A change of variables for ocean wave spectrum extraction from bistatic second-order Doppler HF-radar data"
+  year: "2016"
+  address: "St. John's, Newfoundland and Labrador"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  day: "10"
+  groups: "Conferences without proceedings"
+- id: Silva2018c
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Reza
+      surnames: Shahidi
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "27th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2018)"
+  title: "Empirical initial value estimation for nonlinear extraction of ocean wave spectra from bistatic HF radar data"
+  year: "2018"
+  address: "St. John's, Newfoundland and Labrador"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  abstract: "The present work proposes the use of empirical functions for determining the initial value for the nonlinear extraction of the directional ocean wave spectrum from bistatic High-Frequency Surface Wave Radar (HFSWR) Doppler data. Once the initialization parameters have been defined using these empirical expressions, a blind iterative algorithm based on Tikhonov regularization in Hilbert Scales is used to extract the nondirectional spectrum. The extracted spectrum is then used to determine the directional factor, which is assumed to be described by a cosine-power model. The proposed method yields good results with synthetic noise-contaminated HFSWR data with a priori regularization parameters."
+  day: "13"
+  groups: "Conferences without proceedings"
+  keywords: "HF radar,bistatic radar,directional spectrum,nonlinear extraction"
+- id: Silva2011
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "VIII Seminário de Iniciação Científica do Instituto Federal da Bahia"
+  title: "Automatic and adaptive mesh generator for finite elements method applications"
+  year: "2011"
+  address: "Salvador, Brazil"
+  month: "October"
+  organization: "IFBA"
+  annote: "in Portuguese"
+  day: "19–21"
+  groups: "Conferences without proceedings"
+  originaltitle: "Gerador automático e adaprativo de malhas de elementos finitos"
+- id: Silva2014a
+- entrytype: phdthesis
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+  school: "Instituto Federal de Educação, Ciência e Tecnologia da Bahia"
+  title: "Electromagnetic position and orientation tracking system with six degrees-of-freedom"
+  originaltitle: "Sistema eletromagnético de rastreamento de posição e orientação com seis graus de liberdade"
+  annote: "in Portuguese"
+  year: "2014"
+  type: "B.Eng. Thesis"
+  abstract: "The main purpose of this work is to develop a electromagnetic position and orientation tracker with six degrees of freedom. Initially is presented an academic approach of Linear Algebra and Electromagnetism con- cepts required to understand the motion tracker working principles. Once theoretical requisites are met, physical and mathematical model of the system is described, with the techniques for inversion of the system. After modelling considerations, the use of partial information of the sensor is considered. A new inversion method, based on singular value decomposition of the linear transform matrix, is presented. Following the theoretical concepts related to the inversion of the system, the prototype cons- truction is persented, detailing the assembly process, controllers programming and the circuit elements and structure. From the prototype, the inversion process is applied on acquired data, obtaining the position information using nonlinear programming, and position and orientation information using the new singular value decomposition-based method. Both methods present good results for the inversion, with precision similar to commercial sensors in the nonlinear programming case, and zero error for the simulated data inversion using the singular value decomposition-based method."
+  groups: "Theses"
+  keywords: "Instrumentation. Position. Orientation. Electromag"
+  pages: "108"
+- id: Silva2020
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Weimin
+      surnames: Huang
+    - names: Eric William
+      surnames: Gill
+  journal: "IEEE Trans. Antennas Propag."
+  title: "High-frequency radar cross-section of the ocean surface with arbitrary roughness scales: a generalized functions approach"
+  year: "2020"
+  volume: "Under review"
+  fjournal: "IEEE Transactions on Antennas and Propagation"
+  groups: "In Progress"
+- id: Silva2019b
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "Radiowave Oceanography Workshop 2019"
+  title: "High-frequency radar cross-section for an ocean surface with arbitrary heights"
+  year: "2019"
+  address: "Victoria, BC, Canada"
+  month: "August"
+  organization: "Ocean Networks Canada"
+  day: "28–30"
+  file: ":Silva2019b - High Frequency Radar Cross Section for an Ocean Surface with Arbitrary Heights.PDF:PDF"
+  groups: "Conferences without proceedings"
+- id: Silva2014
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "2014 16th International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM)"
+  title: "Sea proximity influence over EM plane wave scattering using the finite element method"
+  year: "2014"
+  address: "Victoria, BC, Canada"
+  month: "July"
+  pages: "1–2"
+  publisher: "IEEE"
+  abstract: "The Finite Element Method (FEM) simulation of the scattering of a Transverse Electric (TE) mode frequency domain electromagnetic plane wave within VHF range over models for coastal and inland regions is presented. The amplitude of the electric field on the different media for each model and the effects these media on electromagnetic propagation are analysed. Presented results show signal attenuation at coastal regions, both urban and non urban."
+  doi: "10.1109/ANTEM.2014.6887726"
+  groups: "Conferences with proceedings"
+  isbn: "978-1-4799-2225-3"
+  keywords: "Atmospheric modeling,Attenuation,Concrete,Electromagnetic scattering,Media,Sea measurements"
+  url: "http://ieeexplore.ieee.org/document/6887726/"
+- id: Silva2013
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "II Simpósio de Guerra de Minas"
+  title: "Artifical intelligence applied to the control and monitoring of marine environments"
+  originaltitle: "Inteligência artifical aplicada ao controle e monitoramento do ambeinte marítimo"
+  year: "2013"
+  address: "Salvador, Brazil"
+  month: "October"
+  organization: "Marinha do Brasil"
+  annote: "in Portuguese"
+  day: "22–23"
+  groups: "Conferences without proceedings"
+- id: Silva2012a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "VII Congresso Norte e Nordeste de Pesquisa e Inovação, 2012"
+  title: "Modelagem por elementos finitos da propagação de ondas eletromagnéticas em regiões litorâneas"
+  year: "2012"
+  address: "Palmas"
+  month: "October"
+  organization: "IFTO"
+  pages: "1–6"
+  annote: "in Portuguese"
+  groups: "Conferences with proceedings"
+  url: "http://propi.ifto.edu.br/ocs/index.php/connepi/vii/paper/view/4771"
+- id: Silva2018b
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Reza
+      surnames: Shahidi
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "OCEANS 2018 MTS/IEEE Charleston"
+  title: "An improved nonlinear extraction of directional ocean wave spectrum from bistatic HFSWR using Tikhonov regularization in Hilbert scales"
+  year: "2018"
+  address: "Charleston, SC, USA"
+  month: "October"
+  pages: "1–6"
+  publisher: "IEEE"
+  doi: "10.1109/OCEANS.2018.8604551"
+  groups: "Conferences with proceedings"
+  isbn: "978-1-5386-4814-8"
+  url: "https://ieeexplore.ieee.org/document/8604551/"
+- id: Silva2018
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  journal: "J. Atmos. Oceanic Technol."
+  title: "An improved estimation and gap-filling technique for sea surface wind speeds using NARX neural networks"
+  year: "2018"
+  issn: "0739-0572"
+  month: "July"
+  number: "7"
+  pages: "1521–1532"
+  volume: "35"
+  abstract: "This work presents the use of a nonlinear autoregressive neural network to obtain an improved estimate of sea surface winds, taking Placentia Bay, Newfoundland and Labrador, Canada, as a study case. The network inputs and delays were chosen through cross correlation with the target variable. The proposed method was compared with five other wind speed estimation techniques, outperforming them in correlation, precision, accuracy, and bias levels. As an extension, the temporal gap filling of missing wind speed data during a storm has been considered. Data containing a measurement gap from a 40-yr windstorm that hit the same location has been used. The proposed method filled the gaps in the dataset with a high degree of correlation with measurements obtained by surrounding stations. The method presented in this work showed promising results that could be extended to estimate wind speeds in other locations and filling gaps in other datasets. 1."
+  doi: "https://doi.org/10.1175/JTECH-D-18-0001.1"
+  file: ":home/murilo/Documents/Mendeley Desktop/Silva, Gill, Huang/2018/Silva, Gill, Huang_2018_An improved estimation and gap-filling technique for sea surface wind speeds using NARX neural networks.pdf:pdf"
+  fjournal: "Journal of Atmospheric and Oceanic Technology"
+  groups: "Journals"
+  url: "http://journals.ametsoc.org/doi/10.1175/JTECH-D-18-0001.1"
+- id: Silva2017b
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "26th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2017)"
+  title: "The use of artificial neural networks in hindcasting and filling gaps in buoy wind speed data under extreme winds"
+  year: "2017"
+  address: "St. John's, Newfoundland and Labrador"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  day: "15"
+  groups: "Conferences without proceedings"
+- id: Silva2019a
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  journal: "Radio Sci."
+  title: "Electromagnetic scattering in curvilinear coordinates using a generalized functions method"
+  year: "2019"
+  issn: "0048-6604"
+  month: "November"
+  number: "11"
+  pages: "1099–1111"
+  volume: "54"
+  annote: "In Press"
+  doi: "10.1029/2018RS006783"
+  fjournal: "Radio Science"
+  groups: "Journals"
+  publisher: "American Geophysical Union (AGU)"
+  url: "https://onlinelibrary.wiley.com/doi/abs/10.1029/2018RS006783"
+- id: Silva2015
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+    - names: Frederico Medeiros Vasconcelos
+      surnames: de Albuquerque
+  booktitle: "24th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2015)"
+  title: "Dimensionality reduction on EM data for underwater object detection using self-organizing maps"
+  year: "2015"
+  address: "St. John's, Newfoundland and Labrador"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  day: "5"
+  groups: "Conferences without proceedings"
+- id: Silva2018a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Weimin
+      surnames: Huang
+    - names: Eric William
+      surnames: Gill
+  booktitle: "2018 OCEANS - MTS/IEEE Kobe Techno-Oceans (OTO)"
+  title: "Filling gaps in wind speed data - a neural networks approach"
+  year: "2018"
+  address: "Kobe, Japan"
+  month: "May"
+  pages: "1–5"
+  publisher: "IEEE"
+  doi: "10.1109/OCEANSKOBE.2018.8559341"
+  groups: "Conferences with proceedings"
+  isbn: "978-1-5386-1654-3"
+  url: "https://ieeexplore.ieee.org/document/8559341/"
+- id: Silva2012
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "IX Seminário de Iniciação Científica, Tecnológica e Inovação"
+  title: "Numerical simulation of strucutres under electromagnetic fields"
+  year: "2012"
+  address: "Vitória da Conquista, BA, Brazil"
+  month: "October"
+  organization: "IFBA"
+  annote: "in Portuguese"
+  day: "6–8"
+  groups: "Conferences without proceedings"
+  originaltitle: "Simulação numérica de estruturas sob ação de campos eletromagnéticos"
+- id: Silva2013a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Lurimar Smera
+      surnames: Batista
+  booktitle: "65a Reunião Anual da Sociedade Brasileira Para o Progresso da Ciência"
+  title: "Modelagem por elementos finitos da influência da maritimidade na propagação de ondas eletromagnéticas"
+  year: "2013"
+  address: "Recife"
+  month: "July"
+  organization: "SBPC"
+  annote: "invited, in Portuguese"
+  groups: "Conferences with proceedings"
+  url: "http://www.sbpcnet.org.br/livro/65ra/resumos/resumos/7129.htm"
+- id: Silva2017a
+- entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Reza
+      surnames: Shahidi
+  booktitle: "OCEANS 2017 - Aberdeen"
+  title: "A new nonlinear approach to extraction of ocean wave spectra from bistatic Doppler HF-radar data"
+  year: "2017"
+  month: "June"
+  pages: "1–6"
+  publisher: "IEEE"
+  volume: "2017-Octob"
+  abstract: "Knowledge of the ocean wave spectrum, from which many important ocean parameters can be extracted, is crucial to understand the ocean's behaviour. Due to the intricate nature of ocean wave spectrum extraction from HF radar data, previously-devised methods relied on making a linear approximation to the original nonlinear problem or resorted to constraining the solution space, in order to simplify the solution process. This problem is aggravated in a bistatic configuration due to its geometrical complexity. The present work proposes a change of variables in the second-order radar cross-section from bistatic HF-Radar in order to extract the ocean power spectral density from Doppler HF-Radar data. The main advantage of the proposed method is the possibility of extracting the ocean wave spectrum without assuming any linear approximation to the inverse problem. In this work, it is found that the proposed method can accurately extract the ocean wave spectrum from bistatic HF radar data under a variety of ocean conditions."
+  doi: "10.1109/OCEANSE.2017.8084790"
+  groups: "Conferences with proceedings"
+  isbn: "9781509052783"
+  keywords: "HF Radar,Inverse Problems,Nonlinear Regularization,Ocean Wave Spectrum,Ocean waves"
+  mendeley-tags: "HF Radar,Inverse Problems,Nonlinear Regularization,Ocean Wave Spectrum,Ocean waves"
+  url: "http://ieeexplore.ieee.org/document/8084790/"
+- id: Silva2020a
+- entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Weimin
+      surnames: Huang
+    - names: Eric William
+      surnames: Gill
+  journal: "Remote Sensing"
+  title: "Bistatic high-frequency radar cross-section of the ocean surface with arbitrary wave heights"
+  year: "2020"
+  month: "February"
+  number: "4"
+  pages: "667"
+  volume: "12"
+  doi: "10.3390/rs12040667"
+  fjournal: "Remote Sensing"
+  groups: "Journals"
+  publisher: "MDPI AG"

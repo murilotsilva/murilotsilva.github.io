@@ -1,0 +1,59 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+<style>
+    ol { list-style: none; 
+        counter-reset:array;}
+    ol li:before {
+        margin-left: -1.5em;
+        counter-increment:array;
+        content:"[" counter(array) "] ";
+    }
+</style>
+
+{% assign myLastName="Silva" %}
+{% assign myNames="Murilo Teixeira" %}
+
+{% assign pubGroups = site.data.Publications | group_by: "groups" | sort: "groups" %}
+{% assign GroupOrder = "In Progress, Journals, Conferences with proceedings, Conferences without proceedings, Theses" | split: ', ' %}
+{% assign GroupTitle = "In Progress, Journals, Refereed Conference Proceedings, Conference presentations, Theses" | split: ', ' %}
+
+{% assign titleIndex = 0 %}
+
+{% for title in GroupOrder %}
+{% for group in pubGroups %}
+{% if group.name == title %}
+<h3>{{GroupTitle[titleIndex]}}</h3>
+{% assign titleIndex = titleIndex | plus:1 %}
+<ol>
+{% assign papers_reverse =  group.items | sort: "year" | reverse  %}
+{% for item in  papers_reverse %}
+    <li> {% for author in item.authors %} 
+            {% assign author_names = author.names | split: " " %}
+            {% if author.surnames == myLastName and author.names == myNames %}
+            <b>{% for author_name in author_names %} {{author_name | slice: 0 }}. {% endfor %} {{ author.surnames }}</b>, 
+            {% else %}
+            {% for author_name in author_names %} {{author_name | slice: 0 }}. {% endfor %} {{ author.surnames }},
+            {% endif %}
+        {%endfor%}
+{% if item.entrytype == "article" and item.groups == "In Progress" %}
+<q>{{item.title}},</q> <i>{{item.journal}}</i>, {% if item.volume %} {{item.volume}}{% endif %}.{% if item.annote %} ({{item.annote}}). {%endif%}
+{% elsif item.entrytype == "article" %}
+<q>{{item.title}},</q> <i>{{item.journal}}</i>, {% if item.volume %} vol. {{item.volume}},{% endif %} {% if item.number %}no. {{item.number}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}{% if item.annote %} ({{item.annote}}). {%endif%}
+{% elsif item.entrytype == "inproceedings" and item.groups == "Conferences without proceedings" and item.url == nil and item.doi== nil %}
+<q>{{item.title}},</q> presented at the {{item.booktitle}}, {% if item.address %} {{item.address}}{% endif %}, {% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %} {{item.day}}, {{item.year}}{% if item.number%}, Paper {{item.number}}{%endif%}.{% if item.annote %} ({{item.annote}}). {%endif%}
+{% elsif item.entrytype == "inproceedings" %}
+<q>{{item.title}},</q> <i>{{item.booktitle}}</i>, {% if item.address %} {{item.address}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.number%}, Paper {{item.number}}{%endif%}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}
+{% if item.annote %} ({{item.annote}}). {%endif%}
+{% elsif item.entrytype == "phdthesis" %}
+<q>{{item.title}},</q> {{item.type}}, {{item.school}}, {% if item.address %} {{item.address}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}{% if item.annote %} ({{item.annote}}). {%endif%}
+{% endif %}
+    </li>
+{% endfor %}
+</ol>
+{% endif %}
+{% endfor %}
+{% endfor %}
