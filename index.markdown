@@ -11,4 +11,4 @@ Hi! My name is Murilo Silva, and I am a Ph.D. candidate in Electrical Engineerin
 
 I was born and raised in Salvador, Brazil, and moved to Canada in 2015 for my masters. In my free time I love listening to music, playing volleyball, and sometimes trying to play the guitar.
 
-I'm also de Communications Officer of the [IEEE Newfoundland and Labrador Section](http://ieeenl.ca){:target="_blank"} since 2019.
+I'm also the Communications Officer of the [IEEE Newfoundland and Labrador Section](http://ieeenl.ca){:target="_blank"} since 2019.
