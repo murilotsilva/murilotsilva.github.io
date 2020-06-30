@@ -4,15 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-<style>
-    ol { list-style: none; 
-        counter-reset:array;}
-    ol li:before {
-        margin-left: -1.5em;
-        counter-increment:array;
-        content:"[" counter(array) "] ";
-    }
-</style>
 
 {% assign myLastName="Silva" %}
 {% assign myNames="Murilo Teixeira" %}
@@ -26,9 +17,9 @@ permalink: /publications/
 {% for title in GroupOrder %}
 {% for group in pubGroups %}
 {% if group.name == title %}
-<h3>{{GroupTitle[titleIndex]}}</h3>
+<h2>{{GroupTitle[titleIndex]}}</h2>
 {% assign titleIndex = titleIndex | plus:1 %}
-<ol>
+<ol class="pubList">
 {% assign papers_reverse =  group.items | sort: "year" | reverse  %}
 {% for item in  papers_reverse %}
     <li> {% for author in item.authors %} 
@@ -40,7 +31,7 @@ permalink: /publications/
             {% endif %}
         {%endfor%}
 {% if item.entrytype == "article" and item.groups == "In Progress" %}
-<q>{{item.title}},</q> <i>{{item.journal}}</i>, {% if item.volume %} {{item.volume}}{% endif %}.{% if item.annote %} ({{item.annote}}). {%endif%}
+<q>{{item.title}},</q> <i>{{item.journal}}</i>, {% if item.volume %} {{item.volume}}{% endif %}.{% if item.note %} ({{item.note}}). {%endif%}
 {% elsif item.entrytype == "article" %}
 <q>{{item.title}},</q> <i>{{item.journal}}</i>, {% if item.volume %} vol. {{item.volume}},{% endif %} {% if item.number %}no. {{item.number}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}{% if item.annote %} ({{item.annote}}). {%endif%}
 {% elsif item.entrytype == "inproceedings" and item.groups == "Conferences without proceedings" and item.url == nil and item.doi== nil %}
@@ -49,7 +40,7 @@ permalink: /publications/
 <q>{{item.title}},</q> <i>{{item.booktitle}}</i>, {% if item.address %} {{item.address}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.number%}, Paper {{item.number}}{%endif%}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}
 {% if item.annote %} ({{item.annote}}). {%endif%}
 {% elsif item.entrytype == "phdthesis" %}
-<q>{{item.title}},</q> {{item.type}}, {{item.school}}, {% if item.address %} {{item.address}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}{% if item.annote %} ({{item.annote}}). {%endif%}
+<q>{{item.title}},</q> {{item.type}}, {{item.school}}, {% if item.address %} {{item.address}},{% endif %} {% if item.pages %}pp. {{item.pages}},{% endif %} {% if item.month %}{% if item.month == "May" %}{{item.month}} {% else %}{{item.month | slice: 0,3}}.{% endif %}{% endif %} {{item.year}}{% if item.doi %}, doi: <a href="http://dx.doi.org/{{item.doi}}">{{item.doi}}</a>.{% elsif item.url %}. [Online]. Available: <a href="{{item.url}}">{{item.url}}</a>{%else%}.{% endif %}{% if item.note %} ({{item.note}}). {%endif%}
 {% endif %}
     </li>
 {% endfor %}

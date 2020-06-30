@@ -1,0 +1,38 @@
+$spacing-unit:     30px !default;
+
+
+  .post-list {
+    margin-left: 0;
+    list-style: none;
+  
+    > li {
+      margin-bottom: $spacing-unit;
+    }
+  }
+  
+  .post-meta {
+    font-size: small;
+    color: $primary;
+  }
+  
+  .post-link {
+    display: block;
+  }
+  
+  
+  
+  /**
+   * Posts
+   */
+  .post-header {
+    margin-bottom: $spacing-unit;
+  }
+  
+  .post-title,
+  .post-content h1 {
+    letter-spacing: -1px;
+    line-height: 1.15;
+
+  }
+  
+ 

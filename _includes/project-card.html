@@ -1,0 +1,15 @@
+
+<a class="{{CardClass}}" href="{{site.baseurl}}/projects/{{project.id}}/">
+    <div>
+        <div style="width: 100%">
+            <img src="../../{{project.image}}" />
+        </div>
+        <h4>{{project.name}}</h4>
+        {% if project.status == "ongoing" %}
+        <p>{{project.description | truncatewords: 50, '...'}}</p>
+        {%endif%}
+    <div class="keywords">
+        <b>Keywords: </b>{{project.keywords | join: ", "}}.
+    </div>
+    </div>
+</a>

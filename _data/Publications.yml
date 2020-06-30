@@ -1,6 +1,6 @@
 # Publications.yml - Converted from Publications.bib using bib2yml.py
 - id: Silva2019c
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -17,7 +17,7 @@
   day: "19"
   groups: "Conferences without proceedings"
 - id: Silva2016
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -41,7 +41,7 @@
   publisher: "SciELO Brasil"
   url: "http://tema.sbmac.org.br/tema/article/view/836"
 - id: Silva2011a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -58,7 +58,7 @@
   groups: "Conferences with proceedings"
   url: "http://portal.ifrn.edu.br/pesquisa/editora/livros-para-download/vi-connepi-engenharia-iv"
 - id: Silva2017
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -84,7 +84,7 @@
   publisher: "World Scientific and Engineering Academy and Society - WSEAS"
   url: "http://www.wseas.org/multimedia/journals/systems/2017/a505802-879.php"
 - id: Silva2017c
-- entrytype: phdthesis
+  entrytype: phdthesis
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -96,7 +96,7 @@
   groups: "Theses"
   url: "https://research.library.mun.ca/12819/"
 - id: Silva2019
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -117,7 +117,7 @@
   groups: "Journals"
   url: "https://ieeexplore.ieee.org/document/8716506/"
 - id: Silva2016a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -134,7 +134,7 @@
   day: "10"
   groups: "Conferences without proceedings"
 - id: Silva2018c
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -155,7 +155,7 @@
   groups: "Conferences without proceedings"
   keywords: "HF radar,bistatic radar,directional spectrum,nonlinear extraction"
 - id: Silva2011
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -172,7 +172,7 @@
   groups: "Conferences without proceedings"
   originaltitle: "Gerador automático e adaprativo de malhas de elementos finitos"
 - id: Silva2014a
-- entrytype: phdthesis
+  entrytype: phdthesis
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -187,7 +187,7 @@
   keywords: "Instrumentation. Position. Orientation. Electromag"
   pages: "108"
 - id: Silva2020
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -198,11 +198,11 @@
   journal: "IEEE Trans. Antennas Propag."
   title: "High-frequency radar cross-section of the ocean surface with arbitrary roughness scales: a generalized functions approach"
   year: "2020"
-  volume: "Under review"
+  note: "Under second review"
   fjournal: "IEEE Transactions on Antennas and Propagation"
   groups: "In Progress"
 - id: Silva2019b
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -220,7 +220,7 @@
   file: ":Silva2019b - High Frequency Radar Cross Section for an Ocean Surface with Arbitrary Heights.PDF:PDF"
   groups: "Conferences without proceedings"
 - id: Silva2014
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -240,7 +240,7 @@
   keywords: "Atmospheric modeling,Attenuation,Concrete,Electromagnetic scattering,Media,Sea measurements"
   url: "http://ieeexplore.ieee.org/document/6887726/"
 - id: Silva2013
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -257,7 +257,7 @@
   day: "22–23"
   groups: "Conferences without proceedings"
 - id: Silva2012a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -274,7 +274,7 @@
   groups: "Conferences with proceedings"
   url: "http://propi.ifto.edu.br/ocs/index.php/connepi/vii/paper/view/4771"
 - id: Silva2018b
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -296,7 +296,7 @@
   isbn: "978-1-5386-4814-8"
   url: "https://ieeexplore.ieee.org/document/8604551/"
 - id: Silva2018
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -319,7 +319,7 @@
   groups: "Journals"
   url: "http://journals.ametsoc.org/doi/10.1175/JTECH-D-18-0001.1"
 - id: Silva2017b
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -336,7 +336,7 @@
   day: "15"
   groups: "Conferences without proceedings"
 - id: Silva2019a
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -359,7 +359,7 @@
   publisher: "American Geophysical Union (AGU)"
   url: "https://onlinelibrary.wiley.com/doi/abs/10.1029/2018RS006783"
 - id: Silva2015
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -376,7 +376,7 @@
   day: "5"
   groups: "Conferences without proceedings"
 - id: Silva2018a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -396,7 +396,7 @@
   isbn: "978-1-5386-1654-3"
   url: "https://ieeexplore.ieee.org/document/8559341/"
 - id: Silva2012
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -413,7 +413,7 @@
   groups: "Conferences without proceedings"
   originaltitle: "Simulação numérica de estruturas sob ação de campos eletromagnéticos"
 - id: Silva2013a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -429,7 +429,7 @@
   groups: "Conferences with proceedings"
   url: "http://www.sbpcnet.org.br/livro/65ra/resumos/resumos/7129.htm"
 - id: Silva2017a
-- entrytype: inproceedings
+  entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
       surnames: Silva
@@ -452,7 +452,7 @@
   mendeley-tags: "HF Radar,Inverse Problems,Nonlinear Regularization,Ocean Wave Spectrum,Ocean waves"
   url: "http://ieeexplore.ieee.org/document/8084790/"
 - id: Silva2020a
-- entrytype: article
+  entrytype: article
   authors:
     - names: Murilo Teixeira
       surnames: Silva

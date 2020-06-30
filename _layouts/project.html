@@ -1,0 +1,49 @@
+---
+layout: page
+---
+
+{% assign myLastName="Silva" %}
+{% assign myNames="Murilo Teixeira" %}
+{% assign projectList=site.data.Projects %}
+
+<a href="{{site.baseurl}}/projects/"><i class="fas fa-backward"></i>
+ Return to Projects page</a>
+
+{% for project in projectList %}
+    {% if project.id == page.project_id %}
+        <h2>{{project.name}}</h2>
+        <h4>{{project.subtitle}}</h4>
+        <img class="image-float" src="{{site.baseurl}}/{{project.image}}" style="width: 300px; height: auto;" />
+        <p>{{project.description}}</p>
+        <h4>Related Works</h4>
+        <ol class="pubList">
+            {% for ProjPub in project.publications %}
+                {% for Pub in site.data.Publications %}
+                    {% if ProjPub.bibId == Pub.id %}
+                    <li> {% for author in Pub.authors %} 
+                        {% assign author_names = author.names | split: " " %}
+                        {% if author.surnames == myLastName and author.names == myNames %}
+                        <b>{% for author_name in author_names %} {{author_name | slice: 0 }}. {% endfor %} {{ author.surnames }}</b>, 
+                        {% else %}
+                        {% for author_name in author_names %} {{author_name | slice: 0 }}. {% endfor %} {{ author.surnames }},
+                        {% endif %}
+                    {%endfor%}
+            {% if Pub.entrytype == "article" and Pub.groups == "In Progress" %}
+            <q>{{Pub.title}},</q> <i>{{Pub.journal}}</i>, {% if Pub.volume %} {{Pub.volume}}{% endif %}.{% if Pub.note %} ({{Pub.note}}). {%endif%}
+            {% elsif Pub.entrytype == "article" %}
+            <q>{{Pub.title}},</q> <i>{{Pub.journal}}</i>, {% if Pub.volume %} vol. {{Pub.volume}},{% endif %} {% if Pub.number %}no. {{Pub.number}},{% endif %} {% if Pub.pages %}pp. {{Pub.pages}},{% endif %} {% if Pub.month %}{% if Pub.month == "May" %}{{Pub.month}} {% else %}{{Pub.month | slice: 0,3}}.{% endif %}{% endif %} {{Pub.year}}{% if Pub.doi %}, doi: <a href="http://dx.doi.org/{{Pub.doi}}" target="_blank">{{Pub.doi}}</a>.{% elsif Pub.url %}. [Online]. Available: <a href="{{Pub.url}}" target="_blank">{{Pub.url}}</a>{%else%}.{% endif %}{% if Pub.note %} ({{Pub.note}}). {%endif%}
+            {% elsif Pub.entrytype == "inproceedings" and Pub.groups == "Conferences without proceedings" and Pub.url == nil and Pub.doi== nil %}
+            <q>{{Pub.title}},</q> presented at the {{Pub.booktitle}}, {% if Pub.address %} {{Pub.address}}{% endif %}, {% if Pub.month == "May" %}{{Pub.month}} {% else %}{{Pub.month | slice: 0,3}}.{% endif %} {{Pub.day}}, {{Pub.year}}{% if Pub.number%}, Paper {{Pub.number}}{%endif%}.{% if Pub.note %} ({{Pub.note}}). {%endif%}
+            {% elsif Pub.entrytype == "inproceedings" %}
+            <q>{{Pub.title}},</q> <i>{{Pub.booktitle}}</i>, {% if Pub.address %} {{Pub.address}},{% endif %} {% if Pub.pages %}pp. {{Pub.pages}},{% endif %} {% if Pub.month %}{% if Pub.month == "May" %}{{Pub.month}} {% else %}{{Pub.month | slice: 0,3}}.{% endif %}{% endif %} {{Pub.year}}{% if Pub.number%}, Paper {{Pub.number}}{%endif%}{% if Pub.doi %}, doi: <a href="http://dx.doi.org/{{Pub.doi}}" target="_blank">{{Pub.doi}}</a>.{% elsif Pub.url %}. [Online]. Available: <a href="{{Pub.url}}" target="_blank">{{Pub.url}}</a>{%else%}.{% endif %}
+            {% if Pub.note %} ({{Pub.note}}). {%endif%}
+            {% elsif Pub.entrytype == "phdthesis" %}
+            <q>{{Pub.title}},</q> {{Pub.type}}, {{Pub.school}}, {% if Pub.address %} {{Pub.address}},{% endif %} {% if Pub.pages %}pp. {{Pub.pages}},{% endif %} {% if Pub.month %}{% if Pub.month == "May" %}{{Pub.month}} {% else %}{{Pub.month | slice: 0,3}}.{% endif %}{% endif %} {{Pub.year}}{% if Pub.doi %}, doi: <a href="http://dx.doi.org/{{Pub.doi}}" target="_blank">{{Pub.doi}}</a>.{% elsif Pub.url %}. [Online]. Available: <a href="{{Pub.url}}" target="_blank">{{Pub.url}}</a>{%else%}.{% endif %}{% if Pub.note %} ({{Pub.note}}). {%endif%}
+            {% endif %}
+                </li>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ol>
+    {% endif %}
+{% endfor %}

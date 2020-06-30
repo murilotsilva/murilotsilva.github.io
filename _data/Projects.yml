@@ -1,0 +1,128 @@
+- id: PhD
+  name: HF Radar Scattering over Ocean Surfaces with Electromagnetically Large Waves
+  subtitle: Removing the small-heights restriction from the HF radar scattering theory
+  status: ongoing
+  description: >
+    High-frequency (HF) radars have been employed over the years in the remote sensing of the ocean surface, 
+    either for target detection, or for meteorological and oceanographic studies of the ocean surface itself.
+    To understand the multiple phenomena occurring on the ocean surface, researchers have developed models for
+    the radar cross-section (RCS) of the ocean surface, allowing for the development of techniques to extract 
+    meteorological and spectral information from the ocean surface. One common restriction applied in the
+    derivation of these RCS expressions is the <i>small-height approximation</i>, which restricts the practical
+    application of the derived theories to electromagnetically small waves. The goal of this project is to derive
+    the RCS of the ocean surface without the small-heights approximation, allowing for the analysis of data gathered
+    from ocean surfaces with electromagnetically large waves.
+  publications:
+    - bibId: Silva2020
+    - bibId: Silva2020a
+    - bibId: Silva2019a
+  image: img/RCSComponents.png
+  keywords: ["Scattering Theory","Radar","Radio Oceanography"]
+
+- id: GapFilling
+  name: Machine learning applied to the gap-filling of buoy wind speed measurements
+  subtitle: 
+  status: closed
+  description: >
+    <!--- <p>Historical ocean data allow for the study of previous events and testing of
+    mathematical models in the ocean environment. The use of estimation 
+    techniques and models on historical data, commonly referred to as 
+    hindcasting, is widely used in climate sciences for long-term climate 
+    analysis, as well as in oceanography for surface wave analysis. </p> --->
+    
+    <p> Wave estimation methods have greatly evolved in the past 50 years, with 
+      different empirical and theoretical models being proposed with increasing 
+      complexity, encompassing the evolution in computational processing 
+      capabilities. While there is a vast array of literature on the estimation 
+      of ocean measurements from wind data, methods dedicated to the prediction 
+      of wind speed from ocean measurements are less common. </p> 
+      
+      <p>
+        The goal of this project is to employ machine learning to the development 
+        of a wind speed estimation method that would be sensitive enough to 
+        estimate sudden peaks within data gaps using significant wave height 
+        measurements.
+      </p>
+    
+  publications:
+    - bibId: Silva2018
+    - bibId: Silva2018a
+  image: img/StormComparisonZoom.png
+  keywords: ["Inverse Problems","Machine Learning","Hindcasting"]
+
+- id: MEng
+  name: Nonlinear extraction of the directional ocean wave spectrum from noisy bistatic HF radar data
+  subtitle: Inversion of HF radar data using nonlinear Tikhonov regularization in Hilbert scales
+  status: closed
+  description: >
+    Due to its ubiquity and relative geometrical and mathematical simplicity, 
+    numerous methods have been developed for the extraction of ocean wave 
+    spectral information from data obtained by monostatic HF radars, using both
+    linear and nonlinear approximations. The goal of this project is to develop
+    a nonlinear extraction method to obtain spectral information from the ocean
+    surface from bistatic HF radar data. Since the data obtained from the ocean
+    surface is usually noisy, the technique chosen for this task was the 
+    Tikhonov regularization in Hilbert scales.
+  publications:
+    - bibId: Silva2019
+    - bibId: Silva2017a
+    - bibId: Silva2018b
+  image: img/mengProjImage.png
+  keywords: ["Inverse Problems","Optimization","Radio Oceanography"]
+
+
+- id: CapstoneProject
+  name: Analytical solution to the estimation of position and orientation using a 6-DOF magnetic tracker
+  subtitle: 
+  status: closed
+  description: >
+    <p> Accurate estimation of the position and orientation of a body with 
+    respect to a reference frame is a problem that frequently arises in 
+    computer vision and robotics. Electromagnetic (EM) trackers have been 
+    widely studied and employed in applications that require a high level 
+    of accuracy &mdash; e.g. medical applications such as image-guided surgery,
+    virtual reality, and motion capture. Recent research on EM trackers has 
+    focused on the mitigation of environmental interferences and other sources
+    of error. However, methods to estimate position and orientation have not 
+    developed on the same pace.</p>
+
+    <!--- <p>The pioneering paper on 6-DOF EM motion tracking describes a recursive
+    algorithm that uses consecutive rotations and linear transformations to 
+    obtain the relative position and orientation of the tracked body. Later,
+    matrix-based closed-form solutions and quaternion-based iterative 
+    approximations using methods were developed.</p> --->
+
+    <p>The goal of this project was to develop an alternative analytical 
+    solution to the 6-DOF electromagnetic tracking problem. The method relies
+    on the Singular Value Decompostion of the current matrices at the tracker
+    and source, and then, using the mathematical method described in the 
+    original paper, try to derive physical meaning from the decomposed matrix.</p>
+
+    <p>The method devised in this project was able to accurately estimate the
+    position and orientation of a virtual sensor under noisy conditions. </p>
+  publications:
+    - bibId: Silva2017
+    - bibId: Silva2014a
+  image: img/motrack_image.png
+  keywords: ["Inverse Problems","Singular Value Decomposition","Magnetic Tracking"]
+
+
+- id: PIBIC3
+  name: Machine learning applied to the identification of underwater objects
+  subtitle: Capturing data behaviour using unsupervised neural networks
+  status: closed
+  description: >
+    <p>This was a project supported by the Brazilian Navy, with the overall 
+    goal of employing machine learning to aid in the classification of static 
+    and underwater threats using the information gathered by multiple sensors. 
+    My contribution to the project was the implementation of an unsupervised 
+    neural network to capture the general behaviour of ULF electromagnetic 
+    fields received using ocean surface EM sensors, providing high-probability 
+    data points to reduce the number of processing data points to a significant
+    data group while upsampling the sensor grid.
+    </p>
+  publications:
+    - bibId: Silva2016
+    - bibId: Silva2015
+  image: img/PIBIC3.png
+  keywords: ["Machine Learning","Unsupervised learning","Classification"]

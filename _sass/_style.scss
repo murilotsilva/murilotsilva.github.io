@@ -1,0 +1,220 @@
+$body-backgroundColor: #fefefe !default;
+$body-size: 16px !default;
+$body-minWidth: 300px !default;
+$body-rendering: optimizeLegibility !default;
+$body-family: $body-fontFamily !default;
+$header-family: $header-fontFamily;
+$body-overflow-x: hidden !default;
+$body-overflow-y: scroll !default;
+$link-Color: #3f6c9e !default;
+$link-HoverColor: #59a1f0 !default;
+
+$body-textColor: $text-color !default;
+$body-fontSize: 1em !default;
+$body-lineHeight: 1.5 !default;
+
+$hr-background-color: $primary !default;
+$hr-height: 2px !default;
+$hr-margin: 1.5rem 0 !default;
+
+$code-family: $code-fontFamily !default;
+$code-padding: 0.25em 0.5em 0.25em !default;
+$code-weight: normal !default;
+$code-size: 0.875em !default;
+
+html{
+    background-color: $body-backgroundColor;
+    font-size: $body-fontSize;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: $body-minWidth;
+    overflow-x: $body-overflow-x;
+    overflow-y: $body-overflow-y;
+    text-rendering: $body-rendering;
+    text-size-adjust: 100%;
+}
+
+
+body, input, select, textarea{
+    font-family: $body-fontFamily;
+}
+
+code, pre{
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: auto;
+    font-family: $code-family;
+}
+
+body{
+    color: $body-textColor;
+    font-size: $body-fontSize;
+    line-height: $body-lineHeight;
+}
+
+a{
+    color: $link-Color;
+    cursor: pointer;
+    text-decoration: none;
+    strong{
+        color: currentColor;
+    }
+    &:hover{
+        color: $link-HoverColor;
+    }
+}
+
+code{
+  background-color: #a9aaaa;
+  color: $jet;
+  font-size: $code-size;
+  font-weight: $code-weight;
+  padding: $code-padding;
+}
+
+hr{
+  background-color: $hr-background-color;
+  border: none;
+  display: block;
+  height: $hr-height;
+  margin: $hr-margin;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+img.image-float{
+    float: right;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $header-fontFamily;
+    color: $indigo-dye;
+    padding-top: 1rem;
+    padding-top: 1.5rem;
+
+}
+
+h1{
+    font-size: 2 * $body-fontSize;
+}
+
+h2{
+    font-size: 1.4 * $body-fontSize;
+    line-height: 1.8ex;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/2019-06-20 17.46.22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 100%;
+    h1{
+        color: #fff;
+    }
+    h2, h3, h4{
+        color: #cecece;
+    }
+    a{
+        color: #fff;
+        opacity: 0.6;
+        &:hover{
+            color: #fff;
+            opacity: 1;
+        }
+    }
+    a.headerLink{
+        opacity: 1;
+    }
+    nav{
+        font-size: 1.2rem;
+        ul{
+            list-style: none;
+            }
+            li {
+                color: #fff;
+                font-weight: bold;
+            }
+    }
+    div.social{
+        padding-top: 20px;
+        text-align: center;
+        ul{
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            display: inline;
+            padding: .5em;
+        }
+        a{
+            font-size: 2em;
+        }
+    }
+    div.title-wrapper{
+        h1,h2{
+            display: inline;
+        }
+    }
+}
+
+section{
+    font-size: $body-fontSize;
+    color: $jet;
+    h1, h2, h3{
+        text-shadow:0 0 1px transparent;
+    }
+
+    p{
+        text-indent: 2em;
+    }
+    img{
+        padding: 1rem;
+    }
+}
+
+ol.pubList{
+    list-style: none;
+    counter-reset: array;
+    li{
+        &:before{
+            margin-left: -1.5em;
+            counter-increment:array;
+            content:"[" counter(array) "] ";
+        }
+    }
+} 
+
+
+@media print {
+    body {
+      padding:0.4in;
+      font-size:12pt;
+      color:#444;
+    }
+  }
+
+@media print, screen and (max-width: 1024px){  
+      header{
+          text-align: center;
+          ul{
+              padding: 0;
+          }
+      }
+      h1{
+          line-height: 1em;
+      }
+      img.image-float{
+          float: none;
+          margin: 0 auto;
+          display: block;
+      }
+}
+
+@media screen and (max-width: 480px){
+    $body-fontSize: 16px;
+}

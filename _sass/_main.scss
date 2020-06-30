@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
+$indigo-dye: #28486Bff;
+$spanish-bistre: #6D7037ff;
+$lemon-yellow-crayola: #f6feaaff;
+$buff: #fce694ff;
+$jet: #373737ff;
+
+$header-fontFamily: 'Montserrat', sans-serif;
+$body-fontFamily: 'Raleway', serif;
+$code-fontFamily: 'Source Code Pro', $body-fontFamily;
+$primary: $indigo-dye;
+$text-color: $jet;
+
+@import "style";
+@import "layout";
+@import "projects";
+@import "post";

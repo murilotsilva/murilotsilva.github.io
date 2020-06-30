@@ -2,7 +2,8 @@
 
 author: Murilo Teixeira Silva
 title: Murilo T. Silva
-tagline: Radar and Remote Sensing Group | Memorial University of Newfoundland
+author-titles: M.Eng.
+tagline: Radar and Remote Sensing Group <br /> Memorial University of Newfoundland
 email: murilots@mun.ca
 affiliation: "Radar and Remote Sensing Group\nDepartment of Electrical and Computer
   Engineering\nFaculty of Engineering and Applied Science\nMemorial University of
@@ -11,16 +12,18 @@ affiliation: "Radar and Remote Sensing Group\nDepartment of Electrical and Compu
 baseurl: ''
 repository: murilotsilva/murilotsilva.github.io
 url: http://murilotsilva.github.io
+google_analytics: UA-150902802-1
 
-
-twitter_username: murilotsilva
-linkedin_username: murilots
-github_username: murilotsilva
-facebook_username: murilotxs90
+social:
+  github: murilotsilva
+  linkedin: murilots
+  twitter: murilotsilva
+  facebook: murilotxs90
+  researchgate: Murilo_Teixeira_Silva
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 show_excerpts: true
 github:
   - metadata
