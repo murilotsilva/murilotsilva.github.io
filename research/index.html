@@ -1,0 +1,27 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+<h2>Current Research Project</h2>
+
+<div class="projects-wrapper">
+{% assign CardClass="project-card-main" %}
+{% for research in site.data.Research %}
+    {% if research.status == "ongoing" %}
+        {% include research-card.html %}
+    {% endif %}
+{% endfor %}
+</div>
+
+<h2>Past Research Projects</h2>
+
+<div class="projects-wrapper"> 
+{% assign CardClass="project-card" %}
+{% for research in site.data.Research %}
+    {% if research.status == "closed" %}
+        {% include research-card.html %}
+    {% endif %}
+{% endfor %}
+</div>

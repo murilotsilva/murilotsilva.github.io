@@ -1,0 +1,15 @@
+
+<a class="{{CardClass}}" href="{{site.baseurl}}/research/{{research.id}}/">
+    <div>
+        <div style="width: 100%">
+            <img src="../../{{research.image}}" />
+        </div>
+        <h4>{{research.name}}</h4>
+        {% if research.status == "ongoing" %}
+        <p>{{research.description | truncatewords: 50, '...'}}</p>
+        {%endif%}
+    <div class="keywords">
+        <b>Keywords: </b>{{research.keywords | join: ", "}}.
+    </div>
+    </div>
+</a>
