@@ -221,6 +221,9 @@ ol.pubList{
         position: relative;
     }
     $body-fontSize: 16px;
+    h1,h2{
+        text-align: left;
+    }
     h1{
         font-size: 1.8 * $body-fontSize;
     }
