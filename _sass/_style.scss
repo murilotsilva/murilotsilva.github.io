@@ -46,6 +46,7 @@ code, pre{
 }
 
 body{
+    max-width: 100%;
     color: $body-textColor;
     font-size: $body-fontSize;
     line-height: $body-lineHeight;
@@ -217,4 +218,10 @@ ol.pubList{
 
 @media screen and (max-width: 480px){
     $body-fontSize: 16px;
+    h1{
+        font-size: 1.8 * $body-fontSize;
+    }
+    h2{
+        font-size: 1.4 * $body-fontSize;
+    }
 }

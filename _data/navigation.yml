@@ -1,7 +1,5 @@
-- name: Home
+- name: About
   link: /
-- name: About Me
-  link: /about/
 - name: Research
   link: /research/
 - name: Publications
