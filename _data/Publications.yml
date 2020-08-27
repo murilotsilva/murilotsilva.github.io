@@ -47,7 +47,7 @@
       surnames: Silva
     - names: Lurimar Smera
       surnames: Batista
-  booktitle: "VI Congresso Norte e Nordeste de Pesquisa e Inovação, 2011"
+  booktitle: "Proceedings of the VI Congresso Norte e Nordeste de Pesquisa e Inovação, 2011"
   title: "Comparação de malhas automáticas para o método dos elementos finitos aplicados à simulação matemática da equação de Poisson"
   year: "2011"
   address: "Natal"
@@ -108,14 +108,16 @@
       surnames: Huang
   journal: "IEEE J. Ocean. Eng."
   title: "Nonlinear extraction of directional ocean wave spectrum from synthetic bistatic high-frequency surface wave radar data"
-  year: "2019"
+  year: "2020"
   issn: "0364-9059"
-  month: "May"
-  pages: "1–18"
+  month: "jul"
+  number: "3"
+  pages: "1004–1021"
+  volume: "45"
   doi: "10.1109/JOE.2019.2909961"
   fjournal: "IEEE Journal of Oceanic Engineering"
   groups: "Journals"
-  url: "https://ieeexplore.ieee.org/document/8716506/"
+  publisher: "Institute of Electrical and Electronics Engineers (IEEE)"
 - id: Silva2016a
   entrytype: inproceedings
   authors:
@@ -198,7 +200,7 @@
   journal: "IEEE Trans. Antennas Propag."
   title: "High-frequency radar cross-section of the ocean surface with arbitrary roughness scales: a generalized functions approach"
   year: "2020"
-  note: "Under second review"
+  note: "Accepted for publication"
   fjournal: "IEEE Transactions on Antennas and Propagation"
   groups: "In Progress"
 - id: Silva2019b
@@ -226,7 +228,7 @@
       surnames: Silva
     - names: Lurimar Smera
       surnames: Batista
-  booktitle: "2014 16th International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM)"
+  booktitle: "Proceedings of the 2014 16th International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM)"
   title: "Sea proximity influence over EM plane wave scattering using the finite element method"
   year: "2014"
   address: "Victoria, BC, Canada"
@@ -263,7 +265,7 @@
       surnames: Silva
     - names: Lurimar Smera
       surnames: Batista
-  booktitle: "VII Congresso Norte e Nordeste de Pesquisa e Inovação, 2012"
+  booktitle: "Proceedings of the VII Congresso Norte e Nordeste de Pesquisa e Inovação, 2012"
   title: "Modelagem por elementos finitos da propagação de ondas eletromagnéticas em regiões litorâneas"
   year: "2012"
   address: "Palmas"
@@ -284,7 +286,7 @@
       surnames: Gill
     - names: Weimin
       surnames: Huang
-  booktitle: "OCEANS 2018 MTS/IEEE Charleston"
+  booktitle: "Proceedings of OCEANS 2018 MTS/IEEE Charleston"
   title: "An improved nonlinear extraction of directional ocean wave spectrum from bistatic HFSWR using Tikhonov regularization in Hilbert scales"
   year: "2018"
   address: "Charleston, SC, USA"
@@ -384,7 +386,7 @@
       surnames: Huang
     - names: Eric William
       surnames: Gill
-  booktitle: "2018 OCEANS - MTS/IEEE Kobe Techno-Oceans (OTO)"
+  booktitle: "Proceedings of 2018 OCEANS - MTS/IEEE Kobe Techno-Oceans (OTO)"
   title: "Filling gaps in wind speed data - a neural networks approach"
   year: "2018"
   address: "Kobe, Japan"
@@ -419,7 +421,7 @@
       surnames: Silva
     - names: Lurimar Smera
       surnames: Batista
-  booktitle: "65a Reunião Anual da Sociedade Brasileira Para o Progresso da Ciência"
+  booktitle: "Proceedings of the 65a Reunião Anual da Sociedade Brasileira Para o Progresso da Ciência"
   title: "Modelagem por elementos finitos da influência da maritimidade na propagação de ondas eletromagnéticas"
   year: "2013"
   address: "Recife"
@@ -437,7 +439,7 @@
       surnames: Gill
     - names: Reza
       surnames: Shahidi
-  booktitle: "OCEANS 2017 - Aberdeen"
+  booktitle: "Proceedings of OCEANS 2017 - Aberdeen"
   title: "A new nonlinear approach to extraction of ocean wave spectra from bistatic Doppler HF-radar data"
   year: "2017"
   month: "June"
@@ -471,3 +473,19 @@
   fjournal: "Remote Sensing"
   groups: "Journals"
   publisher: "MDPI AG"
+- id: Silva2020b
+  entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric W.
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "Proceedings of the 2020 IEEE International Symposium on Antennas and Propagation and North American Radio Science Meeting"
+  title: "HF radar cross-section of ocean surfaces with arbitrary wave heights"
+  year: "2020"
+  month: "July"
+  note: "In press"
+  organization: "IEEE"
+  groups: "Conferences with proceedings"
