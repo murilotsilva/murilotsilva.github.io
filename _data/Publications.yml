@@ -1,5 +1,5 @@
 # Publications.yml - Converted from Publications.bib using bib2yml.py
-- id: Silva2019c
+- id: Silva2020d
   entrytype: inproceedings
   authors:
     - names: Murilo Teixeira
@@ -8,9 +8,9 @@
       surnames: Gill
     - names: Weimin
       surnames: Huang
-  booktitle: "28th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2019)"
-  title: "First-order high-frequency scattering for ocean surfaces with large roughness scales"
-  year: "2019"
+  booktitle: "29th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2020)"
+  title: "Effects of electromagnetically-large waves on the second-order radar cross section of the ocean surface in the HF band"
+  year: "2020"
   address: "St. John's, Newfoundland and Labrador, Canada"
   month: "November"
   organization: "IEEE Newfoundland and Labrador Section"
@@ -199,10 +199,15 @@
       surnames: Gill
   journal: "IEEE Trans. Antennas Propag."
   title: "High-frequency radar cross-section of the ocean surface with arbitrary roughness scales: a generalized functions approach"
-  year: "2020"
-  note: "Accepted for publication"
+  year: "2021"
+  month: "mar"
+  number: "3"
+  pages: "1643–1657"
+  volume: "69"
+  doi: "10.1109/tap.2020.3026330"
   fjournal: "IEEE Transactions on Antennas and Propagation"
-  groups: "In Progress"
+  groups: "Journals"
+  publisher: "Institute of Electrical and Electronics Engineers (IEEE)"
 - id: Silva2019b
   entrytype: inproceedings
   authors:
@@ -354,8 +359,7 @@
   number: "11"
   pages: "1099–1111"
   volume: "54"
-  annote: "In Press"
-  doi: "10.1029/2018RS006783"
+  doi: "10.1029/2018rs006783"
   fjournal: "Radio Science"
   groups: "Journals"
   publisher: "American Geophysical Union (AGU)"
@@ -489,3 +493,54 @@
   note: "In press"
   organization: "IEEE"
   groups: "Conferences with proceedings"
+- id: Silva2020c
+  entrytype: inproceedings
+  authors:
+    - names: M. T.
+      surnames: Silva
+    - names: W.
+      surnames: Huang
+    - names: E. W.
+      surnames: Gill
+  booktitle: "Global OCEANS2020"
+  title: "Second-order correction to the HF radar cross-section of the ocean surface at electromagnetically-high sea states"
+  year: "2020"
+  month: "October"
+  organization: "IEEE"
+  groups: "Conferences with proceedings"
+- id: Silva2021
+  entrytype: article
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Weimin
+      surnames: Huang
+    - names: Eric William
+      surnames: Gill
+  journal: "IEEE Trans. Antennas Propag."
+  title: "High-frequency radar cross-section of the ocean surface with arbitrary roughness scales: higher-orders and generalized form"
+  year: "2021"
+  month: "December"
+  note: "In press"
+  volume: "69"
+  doi: "10.1109/TAP.2021.3070153"
+  fjournal: "IEEE Transactions on Antennas and Propagation"
+  groups: "In Progress"
+  publisher: "Institute of Electrical and Electronics Engineers (IEEE)"
+- id: Silva2019c
+  entrytype: inproceedings
+  authors:
+    - names: Murilo Teixeira
+      surnames: Silva
+    - names: Eric William
+      surnames: Gill
+    - names: Weimin
+      surnames: Huang
+  booktitle: "28th Annual Newfoundland Electrical and Computer Engineering Conference (NECEC 2019)"
+  title: "First-order high-frequency scattering for ocean surfaces with large roughness scales"
+  year: "2019"
+  address: "St. John's, Newfoundland and Labrador, Canada"
+  month: "November"
+  organization: "IEEE Newfoundland and Labrador Section"
+  day: "19"
+  groups: "Conferences without proceedings"
