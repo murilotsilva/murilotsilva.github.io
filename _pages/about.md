@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Electrical/Electronics Engineer</b> @ <a href='https://c-core.ca/'>C-CORE</a>, Ph.D. in Electrical Engineering from <a href="https://mun.ca/">Memorial Univeristy</a>
+subtitle: |
+ <b>Electrical/Electronics Engineer</b> @ <a href='https://c-core.ca/'>C-CORE</a>
+ Ph.D. in Electrical Engineering from <a href="https://mun.ca/">Memorial Univeristy</a>
 
 profile:
   align: right
