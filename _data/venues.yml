@@ -1,6 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+arXiv:
+  url: https://arxiv.org
 
-"PhysRev":
-  url: https://journals.aps.org/
+OCEANS:
+  url: https://www.oceansconference.org/
+
+IEEE TAP: 
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8
+
+APS/URSI:
+  url: https://2020apsursi.org/
+
+SBPC:
+  url: http://portal.sbpcnet.org.br/eventos/tipo/reunioes-anuais/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Blog
 pagination:
   enabled: true
   collection: posts
@@ -22,7 +22,7 @@ pagination:
 
   {% if site.display_tags %}
   <div class="tag-list">
-    <ul class="p-0 m-0">
+    <ul class="list-group list-group-horizontal">
       {% for tag in site.display_tags %}
         <li>
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
@@ -48,6 +48,8 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     <li>
+      <div class="row mt-3">
+        <div class="col-md mt-3 mt-md-0">
       <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -90,6 +92,12 @@ pagination:
               {% endfor %}
           {% endif %}
     </p>
+  </div>
+    <div class="col-sm mt-3 mt-md-0">
+      {% assign feat_img_path = post.image | prepend: 'assets/img/' | prepend: site.baseurl%}
+      {% include figure.html path=feat_img_path class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
     </li>
 
     {% endfor %}
