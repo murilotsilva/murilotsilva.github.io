@@ -86,7 +86,7 @@ Considering first the terms in parenthesis in \eqref{eqn:disprel_full}, two clas
 
 Another classification can be found by analyzing the hyperbolic tangent in \eqref{eqn:disprel_full}. From its argument, waves can be classified according to the ratio between depth and wavenumber:
 
-- When $$Kh \gg 1$$, or $$h \gg \lambda$$, $$\tanh(Kh)\approx 1$, making the dispersion relation of these waves completely independent of water depth. These waves are called **deep water waves**. 
+- When $$Kh \gg 1$$, or $$h \gg \lambda$$, $$\tanh(Kh)\approx 1$$, making the dispersion relation of these waves completely independent of water depth. These waves are called **deep water waves**. 
 - When $$Kh \ll 1$$, or $$h \ll \lambda$$, $$\tanh(Kh) \approx Kh$$, making the dispersion relation directly proportional to the water depth. These waves are classified as **shallow water waves**.
 - If neither of these conditions is satisfied, the wave is said to be of **intermediate depth** or are called **intermediate water waves**.
 
