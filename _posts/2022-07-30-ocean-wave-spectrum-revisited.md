@@ -5,6 +5,8 @@ date:   2022-07-30
 description: An update to my (incomplete) review on spectral models for ocean waves
 tags: ocean spectrum
 categories: ocean-waves
+giscus_comments: true
+
 
 authors:
   - name: Murilo Silva
