@@ -116,7 +116,7 @@ pagination:
 # -----------------------------------------------------------------------------
 
 cv_as_pdf: true
-cv_file: assets/pdf/CV_MuriloSilva.pdf
+cv_file: assets/pdf/AcademicCV_MuriloSilva.pdf
 
 # -----------------------------------------------------------------------------
 # Collections
