@@ -23,3 +23,7 @@ body{
   radial-gradient(circle at 0    50%, rgba(255, 255, 255, .2)5%, var(--global-bg-color) 5%, var(--global-bg-color) 15%, rgba(255, 255, 255, .2)15%, rgba(255, 255, 255, .2)20%, var(--global-bg-color) 20%, var(--global-bg-color) 29%, rgba(255, 255, 255, .2)29%, rgba(255, 255, 255, .2)34%, var(--global-bg-color) 34%, var(--global-bg-color) 44%, rgba(255, 255, 255, .2)44%, rgba(255, 255, 255, .2)49%, transparent 49%, transparent);
   background-size: 100px 50px;
 }
+
+html{
+  scroll-padding-top: 5rem;
+}
