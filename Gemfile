@@ -13,7 +13,8 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jemoji'
     gem 'jekyll-twitter-plugin'
-    gem 'mini_racer'
+    gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
+    # gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
 end
