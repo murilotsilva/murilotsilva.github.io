@@ -19,7 +19,10 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        # Ruby ≥3.2 + Bundler ≥2.4 avoid default-gem conflicts (e.g. uri 0.10 vs 1.1)
+        # when Gemfile.lock is not committed and dependencies resolve to newer gems.
+        ruby-version: '3.2'
+        bundler: '2.5.23'
         bundler-cache: true
     - name: Install deps
       run: |
