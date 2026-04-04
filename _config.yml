@@ -8,8 +8,8 @@ middle_name: T.
 last_name: Silva
 email: murilotxs@gmail.com
 description: | # the ">" symbol means to ignore newlines until "footer_text:"
-  Electrical/Electronics Engineer at C-CORE
-  Ph.D. in Engineering from Memorial University of Newfoundland.
+  Project Engineer at C-CORE
+  P.Eng., Ph.D. in Engineering from Memorial University of Newfoundland.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

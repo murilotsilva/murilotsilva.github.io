@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: |
- <b>Electrical/Electronics Engineer</b> @ <a href='https://c-core.ca/'>C-CORE</a> <br />
- <b>Ph.D. in Electrical Engineering</b> from <a href="https://mun.ca/">Memorial Univeristy</a>
+ <b>Project Engineer</b> @ <a href='https://c-core.ca/'>C-CORE</a> <br />
+ <b>P.Eng., Ph.D. in Electrical Engineering</b>, <a href="https://mun.ca/">Memorial Univeristy</a>
 
 profile:
   align: right
@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 ## About Me
-I'm an Electrical/Electronics Engineer at [C-CORE](https://www.c-core.ca/ "C-CORE"){:target="_blank"}, working on research and development of radar and electromagnetic applications. I have a Ph.D. and an M.Eng. in Electrical Engineering from [Memorial University of Newfoundland](http://www.mun.ca){:target="_blank"}, and a bachelor in Industrial Electrical Engineering by the [Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA)](https://portal.ifba.edu.br/ "IFBA"){:target="_blank"}.
+I'm a Project Engineer at [C-CORE](https://www.c-core.ca/ "C-CORE"){:target="_blank"}, working on research and development of radar and electromagnetic applications. I have a Ph.D. and an M.Eng. in Electrical Engineering from [Memorial University of Newfoundland](http://www.mun.ca){:target="_blank"}, and a bachelor in Industrial Electrical Engineering by the [Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA)](https://portal.ifba.edu.br/ "IFBA"){:target="_blank"}.
 
 In my Ph.D. research, I investigated the effects of large ocean waves on the electromagnetic scattering for high-frequency radars. During my masters, I worked with inverse problems and machine learning applied to spectral and meteorological data related to the ocean environment. I'm also the Communications Officer of the [IEEE Newfoundland and Labrador Section](http://ieeenl.ca){:target="_blank"} since October 2019.
 
